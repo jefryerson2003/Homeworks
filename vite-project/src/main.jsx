@@ -8,9 +8,10 @@ import Categories from './challenge3/categories.jsx'
 import GifGrid from './challenge4/GifGrid'
 import{CHook} from './challenge5/CHook'
 import { Giphy } from './challenge6/Giphy'
+import {MultipleCustomHooks} from './challenge7/MultipleCustomHooks'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Giphy />
+     <MultipleCustomHooks/>
   </React.StrictMode>,
 )
