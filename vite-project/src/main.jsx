@@ -10,9 +10,10 @@ import{CHook} from './challenge5/CHook'
 import { Giphy } from './challenge6/Giphy'
 import {MultipleCustomHooks} from './challenge7/MultipleCustomHooks'
 import { Father } from './challenge8/Father'
+import { TodoApp } from './challenge9/todoApp'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <Father />
+     <TodoApp />
   </React.StrictMode>,
 )
